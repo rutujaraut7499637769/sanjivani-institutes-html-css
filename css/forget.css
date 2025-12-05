@@ -1,0 +1,168 @@
+body {
+  background: #192546;
+}
+.div1{
+  margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #192546
+}
+
+
+.navbar-main-container {
+    width: 100%;
+    background:#192546;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: fixed;    
+    top: 0;              
+    left: 0;             
+    width: 100%;
+    z-index: 999;  
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.project-name {
+    color: white;
+    font-size: 20px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+
+.nav-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.auth-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+
+.menu-item:hover {
+    color: orange;
+}
+
+
+
+
+.div2{
+  background:#6c88d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+.box {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #192546;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* ========= NAVBAR RESPONSIVE (max-width: 900px) ========= */
+
+@media (max-width: 900px) {
+
+  .navbar-main-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;       /* Removed 400px gap */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links-container,
+  .auth-links-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .menu-item {
+    color: white;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+  }
+
+  .logo-container {
+    justify-content: center;
+  }
+}
