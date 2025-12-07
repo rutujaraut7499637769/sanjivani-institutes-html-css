@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#faf8d7;
+}
+
+.navbar-main-container {
+    width: 100%;
+    background:#192546;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;    
+    top: 0;              
+    left: 0;             
+    width: 100%;
+    z-index: 999;  
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.project-name {
+    color:white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.auth-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+
+.menu-item:hover {
+    color: orange;
+}
+
+.main-section-img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.header {
+    width: 100%;
+    background: #2460ad;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+h1{
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+.box {
+    width: 85%;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #004aad;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #004aad;
+    color: white;
+}
+
+input, select, textarea {
+    width: 50%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+select{
+    width: 52%;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
+
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #004aad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00337a;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 900px;
+}
+
+.footer-section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+}
+
+.footer-section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+}
+
+.footer-section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+}
+
+.social-icon-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.menu-subitem {
+    text-decoration: none;
+    color:white;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-subheading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section-1,
+    .footer-section-2,
+    .footer-section-3,
+    .footer-section-4 {
+        width: 100%;
+    
+}
+}
