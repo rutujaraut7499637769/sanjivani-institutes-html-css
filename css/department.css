@@ -147,3 +147,31 @@ nav {
     border-radius: 16px;
     border: 1px solid var(--color-border);
 }
+
+.skills-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;         
+    margin-top: 2rem;
+}
+
+.skill-item {
+    width: 200px;
+    height: 200px;
+    background: var(--color-surface);
+    border-radius: 16px;
+    border: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    transition: none;         
+}
+
+.skill-item h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.4;
+}
