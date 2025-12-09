@@ -26,8 +26,22 @@ Images, CSS, and JS files are organized in separate folders:
 - `/images`
 - `/css`
 
+##
+✨ Key Features
 
----
+.Fully responsive layout
+
+.Clean and simple UI design
+
+.Smooth navigation between pages
+
+.Video embedding (Campus tour)
+
+.Image gallery section
+
+.Contact form with basic validation
+
+.Footer with useful links
 
 ## 🛠️ Technologies Used
 
