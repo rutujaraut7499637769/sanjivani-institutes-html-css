@@ -7,7 +7,7 @@
 
     body {
       line-height: 1.6;
-      background-color:#f4f7f9;
+      background-color:#d9e8f3;
       color: #333;
     }
 
@@ -72,7 +72,7 @@
       padding-left: 20px;
     }
 
-    #history ul::before {
+    #history ul:: {
       content: '';
       position: absolute;
       left: 10px;
@@ -92,7 +92,7 @@
       box-shadow: 0 6px 12px rgba(0,0,0,0.05); 
     }
 
-    #history li::before {
+    #history li:: {
       
       position: absolute;
       left: -18px;
