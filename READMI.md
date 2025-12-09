@@ -1,12 +1,13 @@
 Sanjivani Institute!!
-![images](images/college-img.png)
+![images](images/sanjivani%20institutes-logo.png)
+![images](images/college.png)
 
 ## 📌 Features of the Website
-NBA and NAAc Accedited Engineering program
- Highly Qualified & Expriance faculty
-Advanced Laboratories & reasearch Facilities 
-Srong placement records in top companies
-Students Clubs,Innovation labs 
+- 'NBA and NAAc Accedited Engineering program
+-  Highly Qualified & Expriance faculty
+-  Advanced Laboratories & reasearch Facilities 
+- Srong placement records in top companies
+- Students Clubs,Innovation labs 
 
 
 
@@ -24,7 +25,7 @@ Students Clubs,Innovation labs
 Images, CSS, and JS files are organized in separate folders:
 - `/images`
 - `/css`
-- `/js`
+
 
 ---
 
@@ -32,7 +33,6 @@ Images, CSS, and JS files are organized in separate folders:
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Basic)**
 - **Responsive Design Techniques**
 
 ## 📢 Disclaimer
