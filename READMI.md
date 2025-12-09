@@ -1,12 +1,16 @@
 Sanjivani Institute!!
-![images](images/college-img.png)
+![alt text](image.png)
+![images](images/college.png)
+<a href="https://github.com/Akshata05Dawange/sanjivani-institutes-html-css/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Akshata05Dawange/sanjivani-institutes-html-css" />
+</a>
 
 ## 📌 Features of the Website
-NBA and NAAc Accedited Engineering program
- Highly Qualified & Expriance faculty
-Advanced Laboratories & reasearch Facilities 
-Srong placement records in top companies
-Students Clubs,Innovation labs 
+- 'NBA and NAAc Accedited Engineering program
+-  Highly Qualified & Expriance faculty
+-  Advanced Laboratories & reasearch Facilities 
+- Srong placement records in top companies
+- Students Clubs,Innovation labs 
 
 
 
@@ -24,16 +28,32 @@ Students Clubs,Innovation labs
 Images, CSS, and JS files are organized in separate folders:
 - `/images`
 - `/css`
-- `/js`
 
----
+##
+✨ Key Features
+
+.Fully responsive layout
+
+.Clean and simple UI design
+
+.Smooth navigation between pages
+
+.Video embedding (Campus tour)
+
+.Image gallery section
+
+.Contact form with basic validation
+
+.Footer with useful links
 
 ## 🛠️ Technologies Used
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Basic)**
 - **Responsive Design Techniques**
+### Contributors:
+
+
 
 ## 📢 Disclaimer
 
