@@ -93,7 +93,7 @@
     }
 
     #history li::before {
-      content: '';
+      
       position: absolute;
       left: -18px;
       top: 25px;
